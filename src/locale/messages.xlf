@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+
+      <trans-unit id="PASSENGER_VEHICLE" datatype="html">
+        <source>PASSENGER_VEHICLE</source>
+        <target state="new">Passenger Vehicle</target>
+      </trans-unit>
+
+      <trans-unit id="TRUCK_VAN" datatype="html">
+        <source>TRUCK_VAN</source>
+        <target state="new">Truck or Van</target>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

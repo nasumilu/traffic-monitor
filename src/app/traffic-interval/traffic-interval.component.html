@@ -1,0 +1,10 @@
+<h2>Traffic Count</h2>
+<h3>Start Date: {{ observationSet.startDate | date: 'medium' }}</h3>
+<h3>End Date: {{ observationSet.endDate | date: 'medium' }}</h3>
+<h3>Duration: {{ observationSet.duration }}</h3>
+<ul class="list-group w-25">
+  <li class="list-group-item" *ngFor="let value of observationSet.observations;">
+    {{value.series | date: 'medium'}} <span class="badge rounded-pill bg-secondary">{{ value.count }}</span>
+  </li>
+</ul>
+

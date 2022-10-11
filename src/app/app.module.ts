@@ -2,13 +2,17 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import {HttpClientModule} from "@angular/common/http";
+import { TrafficIntervalComponent } from './traffic-interval/traffic-interval.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TrafficIntervalComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
